@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="dataset.gui.controllers.MainController" spacing="10" alignment="center" padding="20">
+    <Button text="Dodaj Zbiór Danych" onAction="#addDataSet"/>
+    <Button text="Usuń Zbiór Danych" onAction="#removeDataSet"/>
+    <Button text="Oblicz Średnią" onAction="#calculateMean"/>
+    <Button text="Oblicz Medianę" onAction="#calculateMedian"/>
+    <Button text="Oblicz Odchylenie Standardowe" onAction="#calculateStandardDeviation"/>
+</VBox>
